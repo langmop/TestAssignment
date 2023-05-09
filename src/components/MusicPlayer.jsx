@@ -108,7 +108,6 @@ const MusicPlayer = () => {
       setSongDuration(musicDuration);
       setCurrentTime(0);
       song.currentTime = 0;
-      song.duration = musicDuration;
       progress.current.style.width = "0%";
     }
   }, [musicId]);
