@@ -58,7 +58,7 @@ const MusicPlayer = () => {
     }
   };
 
-  onForwardClick = () => {
+  const onForwardClick = () => {
     if (currentTime + 10 < songDuration) {
       setCurrentTime(currentTime + 10);
       song.currentTime = currentTime + 10;
