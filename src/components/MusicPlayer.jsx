@@ -34,7 +34,7 @@ const MusicPlayer = () => {
 
   const [volume, setVolume] = useState(1);
 
-  onBackClick = () => {
+  const onBackClick = () => {
     if (currentTime > 10) {
       setCurrentTime(currentTime - 10);
       song.currentTime = currentTime - 10;
