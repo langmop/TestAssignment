@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#content-auto::-webkit-slider-thumb {
+  -webkit-appearance: none !important;
+  background: white !important;
+  /* visibility: hidden; */
+  position: relative;
+  bottom: 3px;
+  width: 10%;
+  height: 8px;
+  border-radius: 20px;
+}
+
+#content-auto::-webkit-slider-runnable-track {
+  height: 1px !important;
+  /* background-color: pink; */
+}
+
+#content-auto {
+  height: 4px;
+  background-color: grey;
+}
+
+#volume::-webkit-slider-runnable-track {
+  /* max-width: 10px; */
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  visibility: hidden;
+  display: none;
+}
